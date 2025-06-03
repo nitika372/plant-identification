@@ -15,6 +15,7 @@ import process
 with open('agro12.jpg','rb') as f:
     data=f.read()
 imgs= base64.b64encode(data).decode()
+
 css=f"""
     <style>
     [data-testid="stAppViewContainer"]{{
